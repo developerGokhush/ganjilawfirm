@@ -65,53 +65,6 @@ html:not(.wf-pending) .main-wrapper {
   position: relative;
 }
 
-/* 
-  Hero Reveal:
-  Webflow keeps these nodes hidden until IX is ready. We then give them a
-  separate ready state so the browser can paint the hidden state first and
-  animate smoothly on the following frame instead of popping in.
-*/
-.hero-reveal-up,
-.hero-reveal-scale,
-.hero-reveal-right {
-  opacity: 0;
-  visibility: visible;
-  filter: blur(8px);
-  transition:
-    opacity 0.75s cubic-bezier(0.22, 1, 0.36, 1),
-    transform 0.75s cubic-bezier(0.22, 1, 0.36, 1),
-    filter 0.75s cubic-bezier(0.22, 1, 0.36, 1);
-  will-change: opacity, transform, filter;
-}
-
-.hero-reveal-up {
-  transform: translateY(28px);
-}
-
-.hero-reveal-scale {
-  transform: translateY(18px) scale(0.96);
-}
-
-.hero-reveal-right {
-  transform: translateX(28px);
-}
-
-html.wf-ready .hero-reveal-up,
-html.wf-ready .hero-reveal-scale,
-html.wf-ready .hero-reveal-right {
-  opacity: 1;
-  visibility: visible;
-  transform: translate3d(0, 0, 0) scale(1);
-  filter: blur(0);
-}
-
-.hero-delay-1 { transition-delay: 80ms; }
-.hero-delay-2 { transition-delay: 160ms; }
-.hero-delay-3 { transition-delay: 260ms; }
-.hero-delay-4 { transition-delay: 340ms; }
-.hero-delay-5 { transition-delay: 440ms; }
-.hero-delay-6 { transition-delay: 540ms; }
-
 /* Ensure images don't jump before hydration */
 .img-hero {
   aspect-ratio: 961 / 661;
@@ -162,23 +115,6 @@ html:not(.wf-pending) .css-animate-slide-right {
 html.wf-pending [style*="height: 0rem"],
 html.wf-pending [style*="height:0rem"] {
   height: auto !important;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .main-wrapper,
-  .hero-reveal-up,
-  .hero-reveal-scale,
-  .hero-reveal-right {
-    transition: none;
-  }
-
-  .hero-reveal-up,
-  .hero-reveal-scale,
-  .hero-reveal-right {
-    opacity: 1;
-    transform: none;
-    filter: none;
-  }
 }
 
 @import "../styles/webflow.css";

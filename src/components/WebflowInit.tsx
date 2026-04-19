@@ -7,29 +7,19 @@ export default function WebflowInit({ pageId, siteId }: { pageId?: string, siteI
   const pathname = usePathname();
 
   useEffect(() => {
-    const root = document.documentElement;
-
     // 1. Initial State: Hide the page content immediately during route change
-    root.classList.add("wf-pending");
-    root.classList.remove("wf-ready");
+    document.documentElement.classList.add('wf-pending');
     
     // Update Webflow Page and Site IDs
-    if (pageId) root.setAttribute("data-wf-page", pageId);
-    if (siteId) root.setAttribute("data-wf-site", siteId);
+    if (pageId) document.documentElement.setAttribute("data-wf-page", pageId);
+    if (siteId) document.documentElement.setAttribute("data-wf-site", siteId);
 
     let isDestroyed = false;
 
     const revealPage = ({ forceHero = false } = {}) => {
+      const root = document.documentElement;
       root.classList.remove("wf-pending");
       root.classList.add("w-mod-ix3");
-
-      requestAnimationFrame(() => {
-        requestAnimationFrame(() => {
-          if (!isDestroyed) {
-            root.classList.add("wf-ready");
-          }
-        });
-      });
 
       if (!forceHero) {
         return;
@@ -40,8 +30,8 @@ export default function WebflowInit({ pageId, siteId }: { pageId?: string, siteI
       );
 
       heroElements.forEach((el) => {
+        el.style.setProperty("opacity", "1", "important");
         el.style.setProperty("visibility", "visible", "important");
-        el.style.removeProperty("opacity");
       });
     };
 

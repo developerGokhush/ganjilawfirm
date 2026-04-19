@@ -12,19 +12,19 @@ export default function Hero() {
           <div className="hero-content-left" suppressHydrationWarning>
             <div className="hero-heading" suppressHydrationWarning>
               <div
-                className="text-size-eyebrow text-color-main hero-reveal-up hero-delay-1"
+                className="text-size-eyebrow text-color-main css-animate-up delay-100"
                 suppressHydrationWarning
               >
                 #Welcome to Ganji Law Firm
               </div>
               <div
-                className="heading-style-h1 hero-reveal-up hero-delay-2"
+                className="heading-style-h1 css-animate-up delay-200"
                 suppressHydrationWarning
               >
                 Expert Legal Representation You Can Trust In India
               </div>
             </div>
-            <div className="hero-desc hero-reveal-up hero-delay-3" suppressHydrationWarning>
+            <div className="hero-desc css-animate-up delay-300" suppressHydrationWarning>
               <div className="text-size-regular" suppressHydrationWarning>
                 Committed to protecting your rights with professionalism, specialized arbitration, and integrity.
               </div>
@@ -41,24 +41,25 @@ export default function Hero() {
             </div>
           </div>
           <div className="hero-content-right" suppressHydrationWarning>
-            <div className="img-hero-wrap hero-reveal-scale hero-delay-4" suppressHydrationWarning>
+            <div className="img-hero-wrap css-animate-scale delay-400" suppressHydrationWarning>
               <img
                 width="961"
                 height="661"
                 alt="Lawyer Consulting"
                 src="/assets/68dbf244e56ef43177058e89_fa0fb9126fc2333e4e6973d5da4e8d62_Man Smiling at Phone.avif"
                 className="img-hero"
+                style={{ opacity: 1, visibility: 'visible' }}
                 suppressHydrationWarning
               />
             </div>
             <div
-              className="hero-info-img first hero-reveal-right hero-delay-5"
+              className="hero-info-img first css-animate-slide-right delay-500"
               suppressHydrationWarning
             >
               <img width="224" height="Auto" alt="Chart" src="/assets/68dbf244e56ef43177058e81_bd133a2e2300e58f0911bf58474b4333_Chart Bar.avif" loading="lazy" className="img-info shadow-card" suppressHydrationWarning />
             </div>
             <div
-              className="hero-info-img is-secondary hero-reveal-up hero-delay-6"
+              className="hero-info-img is-secondary css-animate-up delay-600"
               suppressHydrationWarning
             >
               <div className="ratings-comp shadow-card" suppressHydrationWarning>
