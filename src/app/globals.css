@@ -24,3 +24,161 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* 
+  SMOOTH TRANSITION SYSTEM
+  We use .wf-pending to keep elements stable during Webflow initialization.
+  Instead of forcing opacity: 1 !important (which causes jumping), 
+  we allow the page to fade in gracefully.
+*/
+
+.main-wrapper {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  will-change: opacity;
+}
+
+/* 
+  Page Reveal:
+  We show the content once WebflowInit has done its work.
+*/
+html:not(.wf-pending) .main-wrapper {
+  opacity: 1;
+}
+
+/* 
+  Navbar Stability:
+  Ensure the navbar doesn't fade out during page transitions 
+  to provide a consistent SPA feel.
+*/
+.nav-wrapper {
+  z-index: 1000;
+  position: relative;
+}
+
+/* 
+  Hero Visibility:
+  We let Framer Motion handle the Hero entrance. 
+  The failsafe in WebflowInit will still trigger if the whole page is stuck.
+*/
+.section-hero {
+  position: relative;
+}
+
+/* 
+  Hero Reveal:
+  Webflow keeps these nodes hidden until IX is ready. We then give them a
+  separate ready state so the browser can paint the hidden state first and
+  animate smoothly on the following frame instead of popping in.
+*/
+.hero-reveal-up,
+.hero-reveal-scale,
+.hero-reveal-right {
+  opacity: 0;
+  visibility: visible;
+  filter: blur(8px);
+  transition:
+    opacity 0.75s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.75s cubic-bezier(0.22, 1, 0.36, 1),
+    filter 0.75s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform, filter;
+}
+
+.hero-reveal-up {
+  transform: translateY(28px);
+}
+
+.hero-reveal-scale {
+  transform: translateY(18px) scale(0.96);
+}
+
+.hero-reveal-right {
+  transform: translateX(28px);
+}
+
+html.wf-ready .hero-reveal-up,
+html.wf-ready .hero-reveal-scale,
+html.wf-ready .hero-reveal-right {
+  opacity: 1;
+  visibility: visible;
+  transform: translate3d(0, 0, 0) scale(1);
+  filter: blur(0);
+}
+
+.hero-delay-1 { transition-delay: 80ms; }
+.hero-delay-2 { transition-delay: 160ms; }
+.hero-delay-3 { transition-delay: 260ms; }
+.hero-delay-4 { transition-delay: 340ms; }
+.hero-delay-5 { transition-delay: 440ms; }
+.hero-delay-6 { transition-delay: 540ms; }
+
+/* Ensure images don't jump before hydration */
+.img-hero {
+  aspect-ratio: 961 / 661;
+  background: #f0f0f0;
+}
+
+/* 
+  PURE CSS ANIMATIONS
+  These run immediately in the browser, independent of React/Webflow JS execution status.
+*/
+@keyframes cssAnimateUp {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes cssAnimateScale {
+  0% { opacity: 0; transform: scale(0.95); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+@keyframes cssAnimateSlideRight {
+  0% { opacity: 0; transform: translateX(20px); }
+  100% { opacity: 1; transform: translateX(0); }
+}
+
+html:not(.wf-pending) .css-animate-up {
+  animation: cssAnimateUp 0.6s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+  opacity: 0;
+}
+
+html:not(.wf-pending) .css-animate-scale {
+  animation: cssAnimateScale 0.8s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+  opacity: 0;
+}
+
+html:not(.wf-pending) .css-animate-slide-right {
+  animation: cssAnimateSlideRight 0.6s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+  opacity: 0;
+}
+
+.delay-100 { animation-delay: 100ms; }
+.delay-200 { animation-delay: 200ms; }
+.delay-300 { animation-delay: 300ms; }
+.delay-400 { animation-delay: 400ms; }
+.delay-500 { animation-delay: 500ms; }
+.delay-600 { animation-delay: 600ms; }
+
+html.wf-pending [style*="height: 0rem"],
+html.wf-pending [style*="height:0rem"] {
+  height: auto !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .main-wrapper,
+  .hero-reveal-up,
+  .hero-reveal-scale,
+  .hero-reveal-right {
+    transition: none;
+  }
+
+  .hero-reveal-up,
+  .hero-reveal-scale,
+  .hero-reveal-right {
+    opacity: 1;
+    transform: none;
+    filter: none;
+  }
+}
+
+@import "../styles/webflow.css";
