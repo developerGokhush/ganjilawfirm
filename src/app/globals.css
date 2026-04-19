@@ -65,6 +65,28 @@ html:not(.wf-pending) .main-wrapper {
   position: relative;
 }
 
+/* 
+  Hero Reveal:
+  Fade and lift the whole hero once Webflow releases the page so the
+  visibility handoff feels intentional instead of abrupt.
+*/
+.hero-smooth-reveal {
+  opacity: 0;
+  transform: translateY(24px) scale(0.985);
+  filter: blur(8px);
+  transition:
+    opacity 0.65s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.8s cubic-bezier(0.22, 1, 0.36, 1),
+    filter 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform, filter;
+}
+
+html:not(.wf-pending) .hero-smooth-reveal {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  filter: blur(0);
+}
+
 /* Ensure images don't jump before hydration */
 .img-hero {
   aspect-ratio: 961 / 661;
@@ -115,6 +137,19 @@ html:not(.wf-pending) .css-animate-slide-right {
 html.wf-pending [style*="height: 0rem"],
 html.wf-pending [style*="height:0rem"] {
   height: auto !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .main-wrapper,
+  .hero-smooth-reveal {
+    transition: none;
+  }
+
+  .hero-smooth-reveal {
+    opacity: 1;
+    transform: none;
+    filter: none;
+  }
 }
 
 @import "../styles/webflow.css";

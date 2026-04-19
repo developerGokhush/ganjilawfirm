@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="section-hero background-color-white" suppressHydrationWarning>
+    <section className="section-hero background-color-white hero-smooth-reveal" suppressHydrationWarning>
       <div className="container-large" suppressHydrationWarning>
         <div
           className="hero-content-wrap"
