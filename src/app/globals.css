@@ -87,6 +87,75 @@ html:not(.wf-pending) .hero-smooth-reveal {
   filter: blur(0);
 }
 
+/* 
+  Services Loop:
+  Desktop uses a seamless marquee so the cards never snap back to the start.
+  Mobile keeps the existing slider behavior.
+*/
+.services-loop-desktop {
+  width: 100%;
+  display: block;
+}
+
+.services-loop-viewport {
+  width: 100%;
+  overflow: hidden;
+  padding-block: .5rem;
+  mask-image: linear-gradient(to right, #0000, #000 6%, #000 94%, #0000);
+}
+
+.services-loop-track {
+  width: max-content;
+  display: flex;
+  animation: servicesLoopScroll 32s linear infinite;
+  will-change: transform;
+}
+
+.services-loop-track:hover {
+  animation-play-state: paused;
+}
+
+.services-loop-set {
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+  flex: none;
+  display: flex;
+  padding-right: 2rem;
+}
+
+.services-loop-card-link {
+  flex: none;
+  width: clamp(18rem, 24vw, 22rem);
+  text-decoration: none;
+}
+
+.services-loop-card {
+  height: 100%;
+}
+
+.services-loop-image {
+  width: 100%;
+}
+
+.services-loop-desc {
+  height: auto !important;
+  opacity: 1 !important;
+}
+
+.services-loop-mobile {
+  display: none !important;
+}
+
+@keyframes servicesLoopScroll {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
 /* Ensure images don't jump before hydration */
 .img-hero {
   aspect-ratio: 961 / 661;
@@ -141,14 +210,26 @@ html.wf-pending [style*="height:0rem"] {
 
 @media (prefers-reduced-motion: reduce) {
   .main-wrapper,
-  .hero-smooth-reveal {
+  .hero-smooth-reveal,
+  .services-loop-track {
     transition: none;
+    animation: none;
   }
 
   .hero-smooth-reveal {
     opacity: 1;
     transform: none;
     filter: none;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .services-loop-desktop {
+    display: none;
+  }
+
+  .services-loop-mobile {
+    display: flex !important;
   }
 }
 
