@@ -3501,7 +3501,7 @@ blockquote {
   justify-content: center;
   align-items: flex-start;
   height: 75rem;
-  padding-top: 13rem;
+  padding-top: 10rem !important;
   padding-bottom: 4rem;
   font-family: Manrope, sans-serif;
   display: flex;
@@ -3542,7 +3542,7 @@ blockquote {
   align-items: flex-start;
   height: 100vh;
   min-height: 57rem;
-  padding-top: 13rem;
+  padding-top: 9rem;
   padding-bottom: 4rem;
   display: flex;
   position: relative;
@@ -3551,7 +3551,7 @@ blockquote {
 
 .section-hero.background-about {
   z-index: auto;
-  padding-top: var(--_sizes---padding-section--13rem);
+  padding-top: var(--_sizes---fixed--9rem);
   padding-bottom: var(--_sizes---padding-section--6-25rem);
   grid-column-gap: var(--_sizes---fixed--2rem);
   grid-row-gap: var(--_sizes---fixed--2rem);
@@ -3571,7 +3571,7 @@ blockquote {
 
 .section-hero.background-color-white {
   z-index: auto;
-  padding-top: var(--_sizes---padding-section--13rem);
+  padding-top: var(--_sizes---fixed--9rem);
   padding-bottom: var(--_sizes---padding-section--6-25rem);
   grid-column-gap: var(--_sizes---fixed--2rem);
   grid-row-gap: var(--_sizes---fixed--2rem);
@@ -3591,7 +3591,7 @@ blockquote {
 
 .section-hero.background-services {
   z-index: auto;
-  padding-top: var(--_sizes---padding-section--13rem);
+  padding-top: var(--_sizes---fixed--9rem);
   padding-bottom: var(--_sizes---padding-section--6-25rem);
   grid-column-gap: var(--_sizes---fixed--2rem);
   grid-row-gap: var(--_sizes---fixed--2rem);
@@ -3622,7 +3622,7 @@ blockquote {
   align-items: center;
   height: 100vh;
   min-height: 62rem;
-  padding-top: 13rem;
+  padding-top: 9rem;
   padding-bottom: 4rem;
   display: flex;
   position: relative;
@@ -3707,7 +3707,8 @@ blockquote {
   height: 100%;
   position: absolute;
   inset: 0%;
-  overflow: clip
+  overflow: clip;
+  transform: scale(1.4);
 }
 
 .info-tag {
@@ -3868,7 +3869,6 @@ blockquote {
   justify-content: space-between;
   align-self: auto;
   align-items: center;
-  margin-bottom: 4rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
   padding-right: 0;
@@ -3933,7 +3933,7 @@ blockquote {
   z-index: 100;
   justify-content: flex-start;
   align-items: center;
-  width: 10.5625rem;
+  width: 20rem;
   padding-left: 0;
   display: flex;
   position: absolute
@@ -3942,7 +3942,7 @@ blockquote {
 .nav_brand.w--current {
   justify-content: flex-start;
   align-items: center;
-  width: 15rem;
+  width: 30rem;
   position: relative;
   inset: 0% auto 0% 0%
 }
@@ -3996,8 +3996,6 @@ blockquote {
   min-height: auto;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 0%;
-  padding-right: 0%;
   display: flex;
   position: static;
   top: 0%;
@@ -4053,10 +4051,10 @@ blockquote {
 .footer-inner {
   grid-column-gap: 3rem;
   grid-row-gap: 3rem;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: flex-start;
   width: 100%;
-  max-width: 18rem;
+  max-width: 20rem;
   display: flex
 }
 
@@ -4064,7 +4062,8 @@ blockquote {
   grid-column-gap: .1rem;
   grid-row-gap: .1rem;
   flex-flow: column;
-  display: flex
+  display: flex;
+  align-items: center;
 }
 
 .footer-form {
@@ -4084,7 +4083,7 @@ blockquote {
 }
 
 .section-contact.background-color-white {
-  padding-top: var(--_sizes---padding-section--13rem);
+  padding-top: var(--_sizes---fixed--9rem);
   padding-bottom: var(--_sizes---padding-section--6-25rem);
   background-image: linear-gradient(180deg, var(--lightgreycolor), white);
   color: var(--blackcolor);
@@ -4521,7 +4520,7 @@ blockquote {
   grid-row-gap: 1rem;
   border-bottom: 1px #ffffff1a;
   justify-content: flex-start;
-  align-items: flex-end;
+  align-items: center;
   padding-top: 0;
   padding-bottom: 0;
   display: flex
@@ -4870,8 +4869,7 @@ blockquote {
 .about-team-image {
   grid-column-gap: 2rem;
   grid-row-gap: 2rem;
-  border-bottom-left-radius: var(--_sizes---fixed--1rem);
-  border-bottom-right-radius: var(--_sizes---fixed--1rem);
+  border-radius: var(--_sizes---fixed--1rem);
   color: var(--blackcolor);
   flex-flow: row;
   justify-content: center;
@@ -5299,7 +5297,7 @@ blockquote {
 
 .chooseus-heading-wrap {
   grid-column-gap: var(--_sizes---fixed--0-313rem);
-  grid-row-gap: var(--_sizes---fixed--0-313rem);
+  grid-row-gap: var(--_sizes---fixed--1rem);
   flex-flow: column;
   width: 100%;
   display: flex
@@ -5729,7 +5727,7 @@ blockquote {
   grid-column-gap: 2rem;
   grid-row-gap: 2rem;
   grid-template-rows: auto auto;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
   display: grid
 }
@@ -5788,12 +5786,12 @@ blockquote {
 .section-cta-footer {
   z-index: 2;
   background-color: var(--darkmaincolor);
-  background-image: linear-gradient(#090f1ae6, #090f1ae6), url("/assets/68e1d1bbd89f740ad8cd66b7_Professional Group Portrait.avif");
-  background-position: 0 0, 50%;
+  background-image: linear-gradient(#090f1ae6, #090f1ae6), url("/assets/ganjiteam3.png");
+  background-position: 0 0, 50% 20%;
   background-size: auto, cover;
   justify-content: flex-start;
   align-items: center;
-  height: 30rem;
+  height: 16rem;
   padding-top: 4rem;
   padding-bottom: 4rem;
   display: flex;
@@ -5867,7 +5865,7 @@ blockquote {
 .vision-heading {
   z-index: 2;
   grid-column-gap: .313rem;
-  grid-row-gap: .313rem;
+  grid-row-gap: 1rem;
   color: var(--blackcolor);
   text-align: left;
   flex-flow: column;
@@ -6189,7 +6187,8 @@ blockquote {
   display: block;
   position: static;
   inset: 0%;
-  overflow: clip
+  overflow: clip;
+  object-position: 50% 30% !important;
 }
 
 .team-quote {
@@ -6230,8 +6229,44 @@ blockquote {
 }
 
 .img-hero {
+  height: 45rem !important;
   border-radius: var(--_sizes---fixed--2rem);
   object-fit: cover
+}
+
+.hero-info-img-card {
+  background: #f5f5f5;
+  width: 240px;
+  height: 130px;
+  border-radius: var(--_sizes---fixed--1rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+}
+
+.hero-info-img-number {
+  font-size: 50px;
+  font-weight: 700;
+  color: #2f4e8c;
+  display: flex;
+  align-items: center;
+  display: flex;
+  gap: var(--_sizes---fixed--0-25rem)
+}
+
+.hero-info-img-number span {
+  font-size: 30px;
+  /* margin-left: 5px; */
+  /* margin-top: 15px; */
+}
+
+.hero-info-img-text {
+  /* margin-top: 10px; */
+  font-size: 15px;
+  font-weight: 400;
+  color: #2f4e8c;
 }
 
 .hero-content-right {
@@ -6396,6 +6431,7 @@ blockquote {
 }
 
 .about-bottom {
+  padding-top: var(--_sizes---fixed--2rem);
   padding-right: var(--_sizes---fixed--2rem);
   padding-bottom: var(--_sizes---fixed--5rem);
   padding-left: var(--_sizes---fixed--2rem);
@@ -7024,7 +7060,7 @@ blockquote {
   }
 
   .nav_brand {
-    width: 12rem;
+    width: 22rem;
     position: relative
   }
 
@@ -7112,7 +7148,7 @@ blockquote {
 
   .footer-inner {
     flex-flow: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start
   }
 
@@ -7988,28 +8024,24 @@ blockquote {
 
   .section-hero.background-color-white {
     height: 60rem;
-    padding-top: 10.5rem
   }
 
   .section-hero.background-banner {
     grid-column-gap: 2rem;
     grid-row-gap: 2rem;
     height: 60rem;
-    padding-top: 10.5rem
   }
 
   .section-hero.background-service {
     grid-column-gap: 2rem;
     grid-row-gap: 2rem;
     height: 57rem;
-    padding-top: 10.5rem
   }
 
   .section-hero.background-about {
     grid-column-gap: 2rem;
     grid-row-gap: 2rem;
     height: auto;
-    padding-top: 10.5rem
   }
 
   .section-hero.background-color-white,
@@ -8021,7 +8053,6 @@ blockquote {
     grid-column-gap: 2rem;
     grid-row-gap: 2rem;
     height: 60rem;
-    padding-top: 10.5rem
   }
 
   .img-bg {
@@ -8113,7 +8144,7 @@ blockquote {
   }
 
   .nav_brand.w--current {
-    width: 13rem
+    width: 22rem
   }
 
   .nav_menu-items-inner {
@@ -8833,7 +8864,7 @@ blockquote {
 
   .nav_brand,
   .nav_brand.w--current {
-    width: 10rem
+    width: 20rem
   }
 
   .nav_link {
@@ -8858,7 +8889,7 @@ blockquote {
   }
 
   .nav_logo {
-    width: 10rem
+    width: 18rem
   }
 
   .email_form {
@@ -8952,7 +8983,7 @@ blockquote {
     grid-column-gap: 2rem;
     grid-row-gap: 2rem;
     flex-flow: row;
-    align-items: flex-start
+    align-items: center
   }
 
   .section-workflow {
@@ -9024,7 +9055,13 @@ blockquote {
   }
 
   .about-team-image {
-    padding: 0
+    padding: 0;
+    height: 25rem !important;
+  }
+
+  .parallax-img {
+    object-position: 60% !important;
+    transform: scale(1);
   }
 
   ._404-content {
@@ -9080,6 +9117,11 @@ blockquote {
     width: 100%
   }
 
+  .aboutus-desc {
+    display: flex;
+    flex-direction: column;
+  }
+
   .section-why {
     padding-top: 3.125rem;
     padding-bottom: 3.125rem
@@ -9096,16 +9138,22 @@ blockquote {
   }
 
   .chooseus-list-wrap {
+    height: auto;
     grid-column-gap: 1rem;
     grid-row-gap: 1rem;
     text-align: left;
-    flex-flow: column;
+    flex-flow: row;
     justify-content: flex-start;
     align-items: flex-start
   }
 
   .chooseus-heading-wrap:where(.w-variant-787f8566-1fd6-6776-63ae-1ee427521b6f) {
     height: auto
+  }
+
+  .chooseus-desc-down>div {
+    display: flex;
+    flex-direction: column;
   }
 
   .team-icon-bg {
@@ -9197,7 +9245,8 @@ blockquote {
   }
 
   .footer-button {
-    width: 100%
+    width: 100%;
+    justify-content: center;
   }
 
   .section-vision {
@@ -9293,11 +9342,15 @@ blockquote {
   }
 
   .img-hero {
-    height: 25rem
+    height: 35rem !important;
   }
 
   .hero-content-wrap {
     width: 100%
+  }
+
+  .footer-inner {
+    max-width: 100rem;
   }
 
   .ratings-comp {
@@ -9315,9 +9368,16 @@ blockquote {
   }
 
   .about-bottom {
+    padding-top: var(--_sizes---fixed--1rem);
     padding-right: var(--_sizes---fixed--1rem);
     padding-bottom: var(--_sizes---fixed--1rem);
     padding-left: var(--_sizes---fixed--1rem)
+  }
+
+  .footer-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .about-top {

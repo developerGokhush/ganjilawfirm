@@ -8,7 +8,7 @@ export default function AboutSection() {
     transform: "translate3d(0px, 50px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
     opacity: 0,
   };
-  
+
   const initAnimStyle2 = {
     WebkitTransform: "translate3d(0, -90%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
     MozTransform: "translate3d(0, -90%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)",
@@ -77,9 +77,21 @@ export default function AboutSection() {
                       <h2 className="dummy-number" suppressHydrationWarning>6</h2>
                       <h2 className="dummy-number" suppressHydrationWarning>7</h2>
                       <h2 className="dummy-number" suppressHydrationWarning>8</h2>
-                      <h2 className="real-number" suppressHydrationWarning>5</h2>
+                      <h2 className="real-number" suppressHydrationWarning>2</h2>
                     </div>
-                    <h2 className="dummy-number" suppressHydrationWarning>th</h2>
+                    <div data-w-id="ad97a6fb-e8ae-61f4-5648-c5f9a2f49bec" style={initAnimStyle2} className="numbers _02" suppressHydrationWarning>
+                      <h2 className="real-number" suppressHydrationWarning>0</h2>
+                      <h2 className="dummy-number" suppressHydrationWarning>1</h2>
+                      <h2 className="dummy-number" suppressHydrationWarning>2</h2>
+                      <h2 className="dummy-number" suppressHydrationWarning>3</h2>
+                      <h2 className="dummy-number" suppressHydrationWarning>4</h2>
+                      <h2 className="dummy-number" suppressHydrationWarning>5</h2>
+                      <h2 className="dummy-number" suppressHydrationWarning>6</h2>
+                      <h2 className="dummy-number" suppressHydrationWarning>7</h2>
+                      <h2 className="dummy-number" suppressHydrationWarning>8</h2>
+                      <h2 className="dummy-number" suppressHydrationWarning>9</h2>
+                    </div>
+                    <h2 className="dummy-number" suppressHydrationWarning>+</h2>
                   </div>
                   <div className="text-size-regular" suppressHydrationWarning>Cases Successfully Resolved</div>
                 </div>
@@ -125,10 +137,10 @@ export default function AboutSection() {
                       <h2 className="dummy-number" suppressHydrationWarning>7</h2>
                       <h2 className="dummy-number" suppressHydrationWarning>8</h2>
                       <h2 className="dummy-number" suppressHydrationWarning>9</h2>
-                      <h2 className="real-number" suppressHydrationWarning>1</h2>
+                      <h2 className="real-number" suppressHydrationWarning>3</h2>
                     </div>
                     <div data-w-id="ad97a6fb-e8ae-61f4-5648-c5f9a2f49c61" style={initAnimStyle2} className="numbers _02" suppressHydrationWarning>
-                      <h2 className="real-number" suppressHydrationWarning>4</h2>
+                      <h2 className="real-number" suppressHydrationWarning>0</h2>
                       <h2 className="dummy-number" suppressHydrationWarning>1</h2>
                       <h2 className="dummy-number" suppressHydrationWarning>2</h2>
                       <h2 className="dummy-number" suppressHydrationWarning>3</h2>
@@ -146,7 +158,7 @@ export default function AboutSection() {
               </div>
             </div>
             <div data-w-id="c8a4a042-474e-e37b-0fd9-77f95ef4660e" style={{ height: "0rem" }} className="about-team-image" suppressHydrationWarning>
-              <img src="/assets/68e1cf750a8283c9f3d57ebc_bd0d16e23adb4a8f103a8a9bbe000cfc_Professional Team Portrait.avif" loading="lazy" width="Auto" height="Auto" alt="" className="parallax-img" suppressHydrationWarning />
+              <img src="/assets/ganjiteam.jpg" loading="lazy" width="Auto" height="Auto" alt="" className="parallax-img" suppressHydrationWarning />
             </div>
           </div>
         </div>

@@ -101,7 +101,7 @@ export default function Home() {
                               </div>
                             </div>
                             <div className="service-image w-variant-314d80a7-7c1e-c7b8-2834-1719819b2756" suppressHydrationWarning><img
-                              src="/assets/68dd32871bef571129555444_687129eee366b1aba968e0d2_pexels-rdne-6065141.jpeg"
+                              src="/assets/criminal_law.png"
                               loading="lazy" alt="" className="parallax-img" suppressHydrationWarning /></div>
                           </div>
                         </Link></div>
@@ -126,7 +126,7 @@ export default function Home() {
                               </div>
                             </div>
                             <div className="service-image w-variant-314d80a7-7c1e-c7b8-2834-1719819b2756" suppressHydrationWarning><img
-                              src="/assets/68dd3287147aee908da0532f_68712cadcde63a34011e0da0_pexels-pavel-danilyuk-8152745.jpeg"
+                              src="/assets/corporate_law.png"
                               loading="lazy" alt="" className="parallax-img" suppressHydrationWarning /></div>
                           </div>
                         </Link></div>
@@ -151,7 +151,7 @@ export default function Home() {
                               </div>
                             </div>
                             <div className="service-image w-variant-314d80a7-7c1e-c7b8-2834-1719819b2756" suppressHydrationWarning><img
-                              src="/assets/68dd3287ca7a35dddfc29dee_68712870611da17860d1e73f_pexels-pavel-danilyuk-8112153.jpeg"
+                              src="/assets/family_law.png"
                               loading="lazy" alt="" className="parallax-img" suppressHydrationWarning /></div>
                           </div>
                         </Link></div>
@@ -176,7 +176,7 @@ export default function Home() {
                               </div>
                             </div>
                             <div className="service-image w-variant-314d80a7-7c1e-c7b8-2834-1719819b2756" suppressHydrationWarning><img
-                              src="/assets/68dd328785f4ecda7c82d355_68712ec2b7322f6255013925_pexels-karolina-grabowska-7876038.jpeg"
+                              src="/assets/civil_litigation.png"
                               loading="lazy" alt="" className="parallax-img" suppressHydrationWarning /></div>
                           </div>
                         </Link></div>
@@ -259,7 +259,7 @@ export default function Home() {
                     <div data-w-id="be0244a7-0ce9-0e2a-dc1f-413d724a8710"
                       className="service-card w-variant-314d80a7-7c1e-c7b8-2834-1719819b2756 shadow-card-secondary" suppressHydrationWarning>
                       <div className="service-image w-variant-314d80a7-7c1e-c7b8-2834-1719819b2756" suppressHydrationWarning><img
-                        src="/assets/68dd32871bef571129555444_687129eee366b1aba968e0d2_pexels-rdne-6065141.jpeg"
+                        src="/assets/criminal_law.png"
                         loading="lazy" alt="" className="img-services w-variant-314d80a7-7c1e-c7b8-2834-1719819b2756" suppressHydrationWarning />
                       </div>
                       <div className="service-wrap w-variant-314d80a7-7c1e-c7b8-2834-1719819b2756" suppressHydrationWarning>
@@ -280,7 +280,7 @@ export default function Home() {
                     <div data-w-id="be0244a7-0ce9-0e2a-dc1f-413d724a8710"
                       className="service-card w-variant-314d80a7-7c1e-c7b8-2834-1719819b2756 shadow-card-secondary" suppressHydrationWarning>
                       <div className="service-image w-variant-314d80a7-7c1e-c7b8-2834-1719819b2756" suppressHydrationWarning><img
-                        src="/assets/68dd3287147aee908da0532f_68712cadcde63a34011e0da0_pexels-pavel-danilyuk-8152745.jpeg"
+                        src="/assets/corporate_law.png"
                         loading="lazy" alt="" className="img-services w-variant-314d80a7-7c1e-c7b8-2834-1719819b2756" suppressHydrationWarning />
                       </div>
                       <div className="service-wrap w-variant-314d80a7-7c1e-c7b8-2834-1719819b2756" suppressHydrationWarning>
@@ -301,7 +301,7 @@ export default function Home() {
                     <div data-w-id="be0244a7-0ce9-0e2a-dc1f-413d724a8710"
                       className="service-card w-variant-314d80a7-7c1e-c7b8-2834-1719819b2756 shadow-card-secondary" suppressHydrationWarning>
                       <div className="service-image w-variant-314d80a7-7c1e-c7b8-2834-1719819b2756" suppressHydrationWarning><img
-                        src="/assets/68dd3287ca7a35dddfc29dee_68712870611da17860d1e73f_pexels-pavel-danilyuk-8112153.jpeg"
+                        src="/assets/family_law.png"
                         loading="lazy" alt="" className="img-services w-variant-314d80a7-7c1e-c7b8-2834-1719819b2756" suppressHydrationWarning />
                       </div>
                       <div className="service-wrap w-variant-314d80a7-7c1e-c7b8-2834-1719819b2756" suppressHydrationWarning>
@@ -322,7 +322,7 @@ export default function Home() {
                     <div data-w-id="be0244a7-0ce9-0e2a-dc1f-413d724a8710"
                       className="service-card w-variant-314d80a7-7c1e-c7b8-2834-1719819b2756 shadow-card-secondary" suppressHydrationWarning>
                       <div className="service-image w-variant-314d80a7-7c1e-c7b8-2834-1719819b2756" suppressHydrationWarning><img
-                        src="/assets/68dd328785f4ecda7c82d355_68712ec2b7322f6255013925_pexels-karolina-grabowska-7876038.jpeg"
+                        src="/assets/civil_litigation.png"
                         loading="lazy" alt="" className="img-services w-variant-314d80a7-7c1e-c7b8-2834-1719819b2756" suppressHydrationWarning />
                       </div>
                       <div className="service-wrap w-variant-314d80a7-7c1e-c7b8-2834-1719819b2756" suppressHydrationWarning>
@@ -348,10 +348,10 @@ export default function Home() {
           <div className="container-large" suppressHydrationWarning>
             <div className="chooseus-wrap w-variant-787f8566-1fd6-6776-63ae-1ee427521b6f" suppressHydrationWarning>
               <div className="chooseus-content w-variant-787f8566-1fd6-6776-63ae-1ee427521b6f" suppressHydrationWarning><img
-                src="/assets/68e2139fa63c2df9d7596cc5_Professional Team Portrait (3).avif"
+                src="/assets/ganjiteam2.jpg"
                 loading="lazy" data-w-id="7848de4d-3b76-5133-6c5a-2704a9dc3dee" height="Auto" alt=""
                 className="img-chooseus w-variant-787f8566-1fd6-6776-63ae-1ee427521b6f" suppressHydrationWarning /><img
-                  src="/assets/68e1d1bbd89f740ad8cd66b7_Professional Group Portrait.avif"
+                  src="/assets/ganjiteam2.jpg"
                   loading="lazy" data-w-id="7848de4d-3b76-5133-6c5a-2704a9dc3def" height="Auto" alt=""
                   className="img-chooseus w-variant-787f8566-1fd6-6776-63ae-1ee427521b6f is-secondary" suppressHydrationWarning /></div>
               <div className="chooseus-heading" suppressHydrationWarning>
@@ -362,9 +362,8 @@ export default function Home() {
                   <h2 data-w-id="fc4b258f-5d33-d01b-7f05-af8eaef8bb1f" className="heading-style-h3 text-color-white" suppressHydrationWarning>Your
                     Legal Partner with Integrity and Results</h2>
                   <div data-w-id="eaf53285-f90b-5a4c-548c-eb92cc291d57" className="opacity-70" suppressHydrationWarning>
-                    <p className="text-size-regular text-color-white w-variant-787f8566-1fd6-6776-63ae-1ee427521b6f" suppressHydrationWarning>Choosing
-                      the right legal partner makes all the difference. Our firm combines experience, compassion, and a
-                      relentless pursuit of justice.</p>
+                    <p className="text-size-regular text-color-white w-variant-787f8566-1fd6-6776-63ae-1ee427521b6f" suppressHydrationWarning>We understand that choosing the right legal partner matters, and we aim to make that decision easier. Our firm combines broad legal expertise with a client-first approach, handling every matter with care, clarity, and dedication.</p><br />
+                    <p className="text-size-regular text-color-white w-variant-787f8566-1fd6-6776-63ae-1ee427521b6f" suppressHydrationWarning>We take the time to understand your concerns and guide you with clear, practical advice. With transparent communication and timely updates, we focus on achieving the best possible outcome while building your trust.</p>
                   </div>
                 </div>
                 <div className="chooseus-grid w-variant-787f8566-1fd6-6776-63ae-1ee427521b6f" suppressHydrationWarning>
@@ -397,22 +396,22 @@ export default function Home() {
             </div>
             <div className="chooseus-secondary-wrap w-variant-787f8566-1fd6-6776-63ae-1ee427521b6f" suppressHydrationWarning>
               <div className="chooseus-content w-variant-787f8566-1fd6-6776-63ae-1ee427521b6f" suppressHydrationWarning><img
-                src="/assets/68e21a128e86156608db9e2a_Team Portrait.avif"
+                src="/assets/ganjiteam2.jpg"
                 loading="lazy" data-w-id="9789c260-bb13-03b4-b1f4-f60af770fb5e" height="Auto" alt=""
                 className="img-chooseus w-variant-787f8566-1fd6-6776-63ae-1ee427521b6f" suppressHydrationWarning />
                 <div className="chooseus-heading-wrap w-variant-787f8566-1fd6-6776-63ae-1ee427521b6f" suppressHydrationWarning>
+                  <div className="sub-heading" suppressHydrationWarning>
+                    <h2 className="text-size-eyebrow text-color-main w-variant-787f8566-1fd6-6776-63ae-1ee427521b6f" suppressHydrationWarning>Why
+                      Choose Our Firm?</h2>
+                  </div>
                   <div data-w-id="4878b8b7-e98e-3217-ec54-83bf33a1db69"
                     className="chooseus-heading-top w-variant-787f8566-1fd6-6776-63ae-1ee427521b6f" suppressHydrationWarning>
-                    <div className="sub-heading" suppressHydrationWarning>
-                      <h2 className="text-size-eyebrow text-color-main w-variant-787f8566-1fd6-6776-63ae-1ee427521b6f" suppressHydrationWarning>Why
-                        Choose Our Firm?</h2>
-                    </div>
                     <h2 className="heading-style-h3" suppressHydrationWarning>Your Legal Partner with Integrity and Results</h2>
                   </div>
                   <div data-w-id="6c19e8fd-a6da-9617-2a5e-3677067f52ad" className="chooseus-desc-down" suppressHydrationWarning>
                     <div className="opacity-70" suppressHydrationWarning>
-                      <p className="text-size-regular" suppressHydrationWarning>Choosing the right legal partner makes all the difference. Our firm
-                        combines experience, compassion, and a relentless pursuit of justice.</p>
+                      <p className="text-size-regular" suppressHydrationWarning>We understand that choosing the right legal partner matters, and we aim to make that decision easier. Our firm combines broad legal expertise with a client-first approach, handling every matter with care, clarity, and dedication.</p><br />
+                      <p className="text-size-regular" suppressHydrationWarning>We take the time to understand your concerns and guide you with clear, practical advice. With transparent communication and timely updates, we focus on achieving the best possible outcome while building your trust.</p>
                     </div>
                   </div>
                 </div>
@@ -476,7 +475,7 @@ export default function Home() {
                           loading="lazy" alt=""
                           className="testimonial-author-image w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning />
                           <div className="testimonial-author-info w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
-                            <div className="text-size-medium" suppressHydrationWarning>Thomas Blake</div>
+                            <div className="text-size-medium" suppressHydrationWarning>Shiva Kumar Pollethi</div>
                             <div className="opacity-70" suppressHydrationWarning>
                               <div className="text-size-regular w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>Operations
                                 Lead</div>
@@ -484,12 +483,9 @@ export default function Home() {
                           </div>
                         </div>
                       </div>
-                      <div className="testimonial-author-wrap-secondary w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning><img
-                        src="/assets/68e20977705bce25273fead2_68707b7e825be3e4f92d5d13_9.png"
-                        loading="lazy" alt=""
-                        className="testimonial-author-image w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning />
+                      <div className="testimonial-author-wrap-secondary w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
                         <div className="testimonial-author-info w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
-                          <div className="text-size-medium" suppressHydrationWarning>Thomas Blake</div>
+                          <div className="text-size-medium" suppressHydrationWarning>Shiva Kumar Pollethi</div>
                           <div className="opacity-70" suppressHydrationWarning>
                             <div className="text-size-regular w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>Operations Lead
                             </div>
@@ -509,7 +505,7 @@ export default function Home() {
                           loading="lazy" alt=""
                           className="testimonial-author-image w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning />
                           <div className="testimonial-author-info w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
-                            <div className="text-size-medium" suppressHydrationWarning>Sarah Bennett</div>
+                            <div className="text-size-medium" suppressHydrationWarning>Mallikarjun Rao B</div>
                             <div className="opacity-70" suppressHydrationWarning>
                               <div className="text-size-regular w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>Marketing
                                 Director</div>
@@ -517,12 +513,9 @@ export default function Home() {
                           </div>
                         </div>
                       </div>
-                      <div className="testimonial-author-wrap-secondary w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning><img
-                        src="/assets/68e20977de43f1c36afda9c7_68707b7e825be3e4f92d5d0d_1.png"
-                        loading="lazy" alt=""
-                        className="testimonial-author-image w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning />
+                      <div className="testimonial-author-wrap-secondary w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
                         <div className="testimonial-author-info w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
-                          <div className="text-size-medium" suppressHydrationWarning>Sarah Bennett</div>
+                          <div className="text-size-medium" suppressHydrationWarning>Mallikarjun Rao B</div>
                           <div className="opacity-70" suppressHydrationWarning>
                             <div className="text-size-regular w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>Marketing
                               Director</div>
@@ -544,7 +537,7 @@ export default function Home() {
                           loading="lazy" alt=""
                           className="testimonial-author-image w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning />
                           <div className="testimonial-author-info w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
-                            <div className="text-size-medium" suppressHydrationWarning>Daniel Reed</div>
+                            <div className="text-size-medium" suppressHydrationWarning>Chopadu Daniel Stevens</div>
                             <div className="opacity-70" suppressHydrationWarning>
                               <div className="text-size-regular w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>Product
                                 Manager</div>
@@ -552,12 +545,9 @@ export default function Home() {
                           </div>
                         </div>
                       </div>
-                      <div className="testimonial-author-wrap-secondary w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning><img
-                        src="/assets/68e209763f046c2fef2ecdea_68707b7e825be3e4f92d5d0c_11.png"
-                        loading="lazy" alt=""
-                        className="testimonial-author-image w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning />
+                      <div className="testimonial-author-wrap-secondary w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
                         <div className="testimonial-author-info w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
-                          <div className="text-size-medium" suppressHydrationWarning>Daniel Reed</div>
+                          <div className="text-size-medium" suppressHydrationWarning>Chopadu Daniel Stevens</div>
                           <div className="opacity-70" suppressHydrationWarning>
                             <div className="text-size-regular w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>Product Manager
                             </div>
@@ -577,7 +567,7 @@ export default function Home() {
                           loading="lazy" alt=""
                           className="testimonial-author-image w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning />
                           <div className="testimonial-author-info w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
-                            <div className="text-size-medium" suppressHydrationWarning>Michelle Nguyen</div>
+                            <div className="text-size-medium" suppressHydrationWarning>Shalini Madhusudhan</div>
                             <div className="opacity-70" suppressHydrationWarning>
                               <div className="text-size-regular w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>Co-founder
                               </div>
@@ -585,12 +575,9 @@ export default function Home() {
                           </div>
                         </div>
                       </div>
-                      <div className="testimonial-author-wrap-secondary w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning><img
-                        src="/assets/68e209763ed0adec5c7a9588_68707b7e825be3e4f92d5d10_5.png"
-                        loading="lazy" alt=""
-                        className="testimonial-author-image w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning />
+                      <div className="testimonial-author-wrap-secondary w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
                         <div className="testimonial-author-info w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
-                          <div className="text-size-medium" suppressHydrationWarning>Michelle Nguyen</div>
+                          <div className="text-size-medium" suppressHydrationWarning>Shalini Madhusudhan</div>
                           <div className="opacity-70" suppressHydrationWarning>
                             <div className="text-size-regular w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>Co-founder</div>
                           </div>
@@ -611,19 +598,16 @@ export default function Home() {
                           loading="lazy" alt=""
                           className="testimonial-author-image w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning />
                           <div className="testimonial-author-info w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
-                            <div className="text-size-medium" suppressHydrationWarning>Jason Miller</div>
+                            <div className="text-size-medium" suppressHydrationWarning>Karthik Reddy Bolipathi</div>
                             <div className="opacity-70" suppressHydrationWarning>
                               <div className="text-size-regular w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>CEO</div>
                             </div>
                           </div>
                         </div>
                       </div>
-                      <div className="testimonial-author-wrap-secondary w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning><img
-                        src="/assets/68e20976dbf73d43e381d834_68707b7e825be3e4f92d5d14_4.png"
-                        loading="lazy" alt=""
-                        className="testimonial-author-image w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning />
+                      <div className="testimonial-author-wrap-secondary w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
                         <div className="testimonial-author-info w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
-                          <div className="text-size-medium" suppressHydrationWarning>Jason Miller</div>
+                          <div className="text-size-medium" suppressHydrationWarning>Karthik Reddy Bolipathi</div>
                           <div className="opacity-70" suppressHydrationWarning>
                             <div className="text-size-regular w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>CEO</div>
                           </div>
@@ -643,19 +627,16 @@ export default function Home() {
                           loading="lazy" alt=""
                           className="testimonial-author-image w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning />
                           <div className="testimonial-author-info w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
-                            <div className="text-size-medium" suppressHydrationWarning>Linda Cho</div>
+                            <div className="text-size-medium" suppressHydrationWarning>Vasanthi Narayan Ponelli</div>
                             <div className="opacity-70" suppressHydrationWarning>
                               <div className="text-size-regular w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>Founder</div>
                             </div>
                           </div>
                         </div>
                       </div>
-                      <div className="testimonial-author-wrap-secondary w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning><img
-                        src="/assets/68e20976e5dc788e9f3adaae_68707b7e825be3e4f92d5d16_2.png"
-                        loading="lazy" alt=""
-                        className="testimonial-author-image w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning />
+                      <div className="testimonial-author-wrap-secondary w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
                         <div className="testimonial-author-info w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
-                          <div className="text-size-medium" suppressHydrationWarning>Linda Cho</div>
+                          <div className="text-size-medium" suppressHydrationWarning>Vasanthi Narayan Ponelli</div>
                           <div className="opacity-70" suppressHydrationWarning>
                             <div className="text-size-regular w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>Founder</div>
                           </div>
@@ -675,7 +656,7 @@ export default function Home() {
                           loading="lazy" alt=""
                           className="testimonial-author-image w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning />
                           <div className="testimonial-author-info w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
-                            <div className="text-size-medium" suppressHydrationWarning>Michael Torres</div>
+                            <div className="text-size-medium" suppressHydrationWarning>K Vishist Reddy</div>
                             <div className="opacity-70" suppressHydrationWarning>
                               <div className="text-size-regular w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>Creative
                                 Director</div>
@@ -683,12 +664,9 @@ export default function Home() {
                           </div>
                         </div>
                       </div>
-                      <div className="testimonial-author-wrap-secondary w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning><img
-                        src="/assets/68e209765c8778488586198b_68707b7e825be3e4f92d5d15_7.png"
-                        loading="lazy" alt=""
-                        className="testimonial-author-image w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning />
+                      <div className="testimonial-author-wrap-secondary w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
                         <div className="testimonial-author-info w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
-                          <div className="text-size-medium" suppressHydrationWarning>Michael Torres</div>
+                          <div className="text-size-medium" suppressHydrationWarning>K Vishist Reddy</div>
                           <div className="opacity-70" suppressHydrationWarning>
                             <div className="text-size-regular w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>Creative
                               Director</div>
@@ -708,7 +686,7 @@ export default function Home() {
                           loading="lazy" alt=""
                           className="testimonial-author-image w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning />
                           <div className="testimonial-author-info w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
-                            <div className="text-size-medium" suppressHydrationWarning>Amira Patel</div>
+                            <div className="text-size-medium" suppressHydrationWarning>Amrith Patel</div>
                             <div className="opacity-70" suppressHydrationWarning>
                               <div className="text-size-regular w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>Head of
                                 Communications</div>
@@ -716,12 +694,9 @@ export default function Home() {
                           </div>
                         </div>
                       </div>
-                      <div className="testimonial-author-wrap-secondary w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning><img
-                        src="/assets/68e20976dfd4e8cf59be6cdb_68707b7e825be3e4f92d5d11_3.png"
-                        loading="lazy" alt=""
-                        className="testimonial-author-image w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning />
+                      <div className="testimonial-author-wrap-secondary w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
                         <div className="testimonial-author-info w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
-                          <div className="text-size-medium" suppressHydrationWarning>Amira Patel</div>
+                          <div className="text-size-medium" suppressHydrationWarning>Amrith Patel</div>
                           <div className="opacity-70" suppressHydrationWarning>
                             <div className="text-size-regular w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>Head of
                               Communications</div>
@@ -748,7 +723,7 @@ export default function Home() {
                           loading="lazy" alt=""
                           className="testimonial-author-image w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning />
                           <div className="testimonial-author-info w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
-                            <div className="text-size-medium" suppressHydrationWarning>Thomas Blake</div>
+                            <div className="text-size-medium" suppressHydrationWarning>Shiva Kumar Pollethi</div>
                             <div className="opacity-70" suppressHydrationWarning>
                               <div className="text-size-regular w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>Operations
                                 Lead</div>
@@ -756,12 +731,9 @@ export default function Home() {
                           </div>
                         </div>
                       </div>
-                      <div className="testimonial-author-wrap-secondary w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning><img
-                        src="/assets/68e20977705bce25273fead2_68707b7e825be3e4f92d5d13_9.png"
-                        loading="lazy" alt=""
-                        className="testimonial-author-image w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning />
+                      <div className="testimonial-author-wrap-secondary w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
                         <div className="testimonial-author-info w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
-                          <div className="text-size-medium" suppressHydrationWarning>Thomas Blake</div>
+                          <div className="text-size-medium" suppressHydrationWarning>Shiva Kumar Pollethi</div>
                           <div className="opacity-70" suppressHydrationWarning>
                             <div className="text-size-regular w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>Operations Lead
                             </div>
@@ -781,7 +753,7 @@ export default function Home() {
                           loading="lazy" alt=""
                           className="testimonial-author-image w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning />
                           <div className="testimonial-author-info w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
-                            <div className="text-size-medium" suppressHydrationWarning>Sarah Bennett</div>
+                            <div className="text-size-medium" suppressHydrationWarning>Mallikarjun Rao B</div>
                             <div className="opacity-70" suppressHydrationWarning>
                               <div className="text-size-regular w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>Marketing
                                 Director</div>
@@ -789,12 +761,9 @@ export default function Home() {
                           </div>
                         </div>
                       </div>
-                      <div className="testimonial-author-wrap-secondary w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning><img
-                        src="/assets/68e20977de43f1c36afda9c7_68707b7e825be3e4f92d5d0d_1.png"
-                        loading="lazy" alt=""
-                        className="testimonial-author-image w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning />
+                      <div className="testimonial-author-wrap-secondary w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
                         <div className="testimonial-author-info w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
-                          <div className="text-size-medium" suppressHydrationWarning>Sarah Bennett</div>
+                          <div className="text-size-medium" suppressHydrationWarning>Mallikarjun Rao B</div>
                           <div className="opacity-70" suppressHydrationWarning>
                             <div className="text-size-regular w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>Marketing
                               Director</div>
@@ -816,7 +785,7 @@ export default function Home() {
                           loading="lazy" alt=""
                           className="testimonial-author-image w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning />
                           <div className="testimonial-author-info w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
-                            <div className="text-size-medium" suppressHydrationWarning>Daniel Reed</div>
+                            <div className="text-size-medium" suppressHydrationWarning>Chopadu Daniel Stevens</div>
                             <div className="opacity-70" suppressHydrationWarning>
                               <div className="text-size-regular w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>Product
                                 Manager</div>
@@ -824,12 +793,9 @@ export default function Home() {
                           </div>
                         </div>
                       </div>
-                      <div className="testimonial-author-wrap-secondary w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning><img
-                        src="/assets/68e209763f046c2fef2ecdea_68707b7e825be3e4f92d5d0c_11.png"
-                        loading="lazy" alt=""
-                        className="testimonial-author-image w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning />
+                      <div className="testimonial-author-wrap-secondary w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
                         <div className="testimonial-author-info w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
-                          <div className="text-size-medium" suppressHydrationWarning>Daniel Reed</div>
+                          <div className="text-size-medium" suppressHydrationWarning>Chopadu Daniel Stevens</div>
                           <div className="opacity-70" suppressHydrationWarning>
                             <div className="text-size-regular w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>Product Manager
                             </div>
@@ -849,7 +815,7 @@ export default function Home() {
                           loading="lazy" alt=""
                           className="testimonial-author-image w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning />
                           <div className="testimonial-author-info w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
-                            <div className="text-size-medium" suppressHydrationWarning>Michelle Nguyen</div>
+                            <div className="text-size-medium" suppressHydrationWarning>Shalini Madhusudhan</div>
                             <div className="opacity-70" suppressHydrationWarning>
                               <div className="text-size-regular w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>Co-founder
                               </div>
@@ -857,12 +823,9 @@ export default function Home() {
                           </div>
                         </div>
                       </div>
-                      <div className="testimonial-author-wrap-secondary w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning><img
-                        src="/assets/68e209763ed0adec5c7a9588_68707b7e825be3e4f92d5d10_5.png"
-                        loading="lazy" alt=""
-                        className="testimonial-author-image w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning />
+                      <div className="testimonial-author-wrap-secondary w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
                         <div className="testimonial-author-info w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
-                          <div className="text-size-medium" suppressHydrationWarning>Michelle Nguyen</div>
+                          <div className="text-size-medium" suppressHydrationWarning>Shalini Madhusudhan</div>
                           <div className="opacity-70" suppressHydrationWarning>
                             <div className="text-size-regular w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>Co-founder</div>
                           </div>
@@ -883,19 +846,16 @@ export default function Home() {
                           loading="lazy" alt=""
                           className="testimonial-author-image w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning />
                           <div className="testimonial-author-info w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
-                            <div className="text-size-medium" suppressHydrationWarning>Jason Miller</div>
+                            <div className="text-size-medium" suppressHydrationWarning>Karthik Reddy Bolipathi</div>
                             <div className="opacity-70" suppressHydrationWarning>
                               <div className="text-size-regular w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>CEO</div>
                             </div>
                           </div>
                         </div>
                       </div>
-                      <div className="testimonial-author-wrap-secondary w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning><img
-                        src="/assets/68e20976dbf73d43e381d834_68707b7e825be3e4f92d5d14_4.png"
-                        loading="lazy" alt=""
-                        className="testimonial-author-image w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning />
+                      <div className="testimonial-author-wrap-secondary w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
                         <div className="testimonial-author-info w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
-                          <div className="text-size-medium" suppressHydrationWarning>Jason Miller</div>
+                          <div className="text-size-medium" suppressHydrationWarning>Karthik Reddy Bolipathi</div>
                           <div className="opacity-70" suppressHydrationWarning>
                             <div className="text-size-regular w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>CEO</div>
                           </div>
@@ -915,19 +875,16 @@ export default function Home() {
                           loading="lazy" alt=""
                           className="testimonial-author-image w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning />
                           <div className="testimonial-author-info w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
-                            <div className="text-size-medium" suppressHydrationWarning>Linda Cho</div>
+                            <div className="text-size-medium" suppressHydrationWarning>Vasanthi Narayan Ponelli</div>
                             <div className="opacity-70" suppressHydrationWarning>
                               <div className="text-size-regular w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>Founder</div>
                             </div>
                           </div>
                         </div>
                       </div>
-                      <div className="testimonial-author-wrap-secondary w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning><img
-                        src="/assets/68e20976e5dc788e9f3adaae_68707b7e825be3e4f92d5d16_2.png"
-                        loading="lazy" alt=""
-                        className="testimonial-author-image w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning />
+                      <div className="testimonial-author-wrap-secondary w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
                         <div className="testimonial-author-info w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
-                          <div className="text-size-medium" suppressHydrationWarning>Linda Cho</div>
+                          <div className="text-size-medium" suppressHydrationWarning>Vasanthi Narayan Ponelli</div>
                           <div className="opacity-70" suppressHydrationWarning>
                             <div className="text-size-regular w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>Founder</div>
                           </div>
@@ -947,7 +904,7 @@ export default function Home() {
                           loading="lazy" alt=""
                           className="testimonial-author-image w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning />
                           <div className="testimonial-author-info w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
-                            <div className="text-size-medium" suppressHydrationWarning>Michael Torres</div>
+                            <div className="text-size-medium" suppressHydrationWarning>K Vishist Reddy</div>
                             <div className="opacity-70" suppressHydrationWarning>
                               <div className="text-size-regular w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>Creative
                                 Director</div>
@@ -955,12 +912,9 @@ export default function Home() {
                           </div>
                         </div>
                       </div>
-                      <div className="testimonial-author-wrap-secondary w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning><img
-                        src="/assets/68e209765c8778488586198b_68707b7e825be3e4f92d5d15_7.png"
-                        loading="lazy" alt=""
-                        className="testimonial-author-image w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning />
+                      <div className="testimonial-author-wrap-secondary w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
                         <div className="testimonial-author-info w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
-                          <div className="text-size-medium" suppressHydrationWarning>Michael Torres</div>
+                          <div className="text-size-medium" suppressHydrationWarning>K Vishist Reddy</div>
                           <div className="opacity-70" suppressHydrationWarning>
                             <div className="text-size-regular w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>Creative
                               Director</div>
@@ -980,7 +934,7 @@ export default function Home() {
                           loading="lazy" alt=""
                           className="testimonial-author-image w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning />
                           <div className="testimonial-author-info w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
-                            <div className="text-size-medium" suppressHydrationWarning>Amira Patel</div>
+                            <div className="text-size-medium" suppressHydrationWarning>Amrith Patel</div>
                             <div className="opacity-70" suppressHydrationWarning>
                               <div className="text-size-regular w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>Head of
                                 Communications</div>
@@ -988,12 +942,9 @@ export default function Home() {
                           </div>
                         </div>
                       </div>
-                      <div className="testimonial-author-wrap-secondary w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning><img
-                        src="/assets/68e20976dfd4e8cf59be6cdb_68707b7e825be3e4f92d5d11_3.png"
-                        loading="lazy" alt=""
-                        className="testimonial-author-image w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning />
+                      <div className="testimonial-author-wrap-secondary w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
                         <div className="testimonial-author-info w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>
-                          <div className="text-size-medium" suppressHydrationWarning>Amira Patel</div>
+                          <div className="text-size-medium" suppressHydrationWarning>Amrith Patel</div>
                           <div className="opacity-70" suppressHydrationWarning>
                             <div className="text-size-regular w-variant-ba5fcca0-ec0b-0295-2c86-4c1dbe435595" suppressHydrationWarning>Head of
                               Communications</div>
@@ -1072,7 +1023,7 @@ export default function Home() {
                         </div>
                         <div className="blog-image" suppressHydrationWarning>
                           <div className="blog-image-overlay" suppressHydrationWarning></div><img width="Auto" loading="lazy" alt=""
-                            src="/assets/68e20a675199394c919e748c_6879b334ae69246e9a6285cd_pexels-august-de-richelieu-4427430.jpeg"
+                            src="/assets/blog_1_corporate_law.png"
                             className="img-cover" suppressHydrationWarning />
                         </div>
                       </div>
@@ -1130,7 +1081,7 @@ export default function Home() {
                         </div>
                         <div className="blog-image" suppressHydrationWarning>
                           <div className="blog-image-overlay" suppressHydrationWarning></div><img width="Auto" loading="lazy" alt=""
-                            src="/assets/68e20a67b6ed309fbe3109da_6879b2728f918269ff07c0d1_pexels-ekaterina-bolovtsova-6077447.jpeg"
+                            src="/assets/blog_2_civil_litigation.png"
                             className="img-cover" suppressHydrationWarning />
                         </div>
                       </div>
@@ -1180,7 +1131,7 @@ export default function Home() {
                         </div>
                         <div className="blog-image" suppressHydrationWarning>
                           <div className="blog-image-overlay" suppressHydrationWarning></div><img width="Auto" loading="lazy" alt=""
-                            src="/assets/68e20a67cae5fd79c5ffcbec_6878b3c05101327be39f93e1_pexels-rdne-7841462.jpeg"
+                            src="/assets/blog_3_law_firm.png"
                             className="img-cover" suppressHydrationWarning />
                         </div>
                       </div>
@@ -1229,7 +1180,7 @@ export default function Home() {
                         </div>
                         <div className="blog-image" suppressHydrationWarning>
                           <div className="blog-image-overlay" suppressHydrationWarning></div><img width="Auto" loading="lazy" alt=""
-                            src="/assets/68e20a67c795495cbac61a38_6879b3c5b135e5afc254422f_pexels-karolina-grabowska-7876299.jpeg"
+                            src="/assets/blog_4_family_law.png"
                             className="img-cover" suppressHydrationWarning />
                         </div>
                       </div>

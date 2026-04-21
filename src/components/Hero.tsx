@@ -15,7 +15,7 @@ export default function Hero() {
                 className="text-size-eyebrow text-color-main css-animate-up delay-100"
                 suppressHydrationWarning
               >
-                #Welcome to Ganji Law Firm
+                Welcome to Ganji Law Firm
               </div>
               <div
                 className="heading-style-h1 css-animate-up delay-200"
@@ -29,7 +29,7 @@ export default function Hero() {
                 Committed to protecting your rights with professionalism, specialized arbitration, and integrity.
               </div>
               <div className="button-cover" suppressHydrationWarning>
-                <Link href="/contact" className="button w-inline-block" suppressHydrationWarning>
+                <Link href="https://cal.com/ganji-law-firm1" target="_blank" className="button w-inline-block" suppressHydrationWarning>
                   <div className="z-index-2" suppressHydrationWarning>
                     <p className="text-weight-medium text-color-white" suppressHydrationWarning>Free Consultation</p>
                   </div>
@@ -46,7 +46,7 @@ export default function Hero() {
                 width="961"
                 height="661"
                 alt="Lawyer Consulting"
-                src="/assets/68dbf244e56ef43177058e89_fa0fb9126fc2333e4e6973d5da4e8d62_Man Smiling at Phone.avif"
+                src="/assets/saikumarganji.jpg"
                 className="img-hero"
                 style={{ opacity: 1, visibility: 'visible' }}
                 suppressHydrationWarning
@@ -56,7 +56,15 @@ export default function Hero() {
               className="hero-info-img first css-animate-slide-right delay-500"
               suppressHydrationWarning
             >
-              <img width="224" height="Auto" alt="Chart" src="/assets/68dbf244e56ef43177058e81_bd133a2e2300e58f0911bf58474b4333_Chart Bar.avif" loading="lazy" className="img-info shadow-card" suppressHydrationWarning />
+              {/* <img width="224" height="Auto" alt="Chart" src="/assets/68dbf244e56ef43177058e81_bd133a2e2300e58f0911bf58474b4333_Chart Bar.avif" loading="lazy" className="img-info shadow-card" suppressHydrationWarning /> */}
+              <div className="hero-info-img-card img-info shadow-card">
+                <div className="hero-info-img-number">
+                  10 <span>+</span>
+                </div>
+                <div className="hero-info-img-text">
+                  Years of Experience
+                </div>
+              </div>
             </div>
             <div
               className="hero-info-img is-secondary css-animate-up delay-600"
@@ -70,7 +78,7 @@ export default function Hero() {
                   <img loading="lazy" src="/assets/68e1e1f2fc76bfadbda94a17_3.avif" alt="" className="avatar-item" suppressHydrationWarning />
                 </div>
                 <div className="ratings-wrap" suppressHydrationWarning>
-                  <div className="text-size-small" suppressHydrationWarning><em>Trusted by 250+ clients in India</em></div>
+                  <div className="text-size-small" suppressHydrationWarning><em>Trusted by 400+ clients in India</em></div>
                 </div>
               </div>
             </div>

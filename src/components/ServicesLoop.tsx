@@ -10,42 +10,29 @@ type Service = {
 
 const services: Service[] = [
   {
-    href: "/services/real-estate-law",
-    title: "Real Estate Law",
-    description: "Protecting your property rights in every real estate transaction.",
-    image: "/assets/68dd3287686916273d7e53ab_68712f4ed632c852a4f51c82_pexels-kindelmedia-7979441 (1).jpeg",
-  },
-  {
-    href: "/services/personal-injury-law",
-    title: "Personal Injury Law",
-    description: "Helping injury victims recover compensation and peace of mind.",
-    image: "/assets/68dd3287bde999438bc7a419_68713034db8bb0db397f756f_pexels-marcus-aurelius-4063789.jpeg",
-    featured: true,
-  },
-  {
     href: "/services/criminal-defense",
     title: "Criminal Defense",
     description: "Protecting your rights and building strong defenses in criminal cases.",
-    image: "/assets/68dd32871bef571129555444_687129eee366b1aba968e0d2_pexels-rdne-6065141.jpeg",
+    image: "/assets/criminal_law.png",
   },
   {
     href: "/services/corporate-business-law",
     title: "Corporate & Business Law",
     description: "Smart legal solutions for businesses at every stage of growth.",
-    image: "/assets/68dd3287147aee908da0532f_68712cadcde63a34011e0da0_pexels-pavel-danilyuk-8152745.jpeg",
+    image: "/assets/corporate_law.png",
     featured: true,
   },
   {
     href: "/services/family-law",
     title: "Family Law",
     description: "Guiding families through legal challenges with empathy and expertise.",
-    image: "/assets/68dd3287ca7a35dddfc29dee_68712870611da17860d1e73f_pexels-pavel-danilyuk-8112153.jpeg",
+    image: "/assets/family_law.png",
   },
   {
     href: "/services/civil-litigation",
     title: "Civil Litigation",
     description: "Resolving disputes efficiently through negotiation or litigation.",
-    image: "/assets/68dd328785f4ecda7c82d355_68712ec2b7322f6255013925_pexels-karolina-grabowska-7876038.jpeg",
+    image: "/assets/civil_litigation.png",
     featured: true,
   },
 ];
