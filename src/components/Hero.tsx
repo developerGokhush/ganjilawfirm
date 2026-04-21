@@ -46,7 +46,7 @@ export default function Hero() {
                 width="961"
                 height="661"
                 alt="Lawyer Consulting"
-                src="/assets/saikumarganji.jpg"
+                src="/assets/saikumarGanji.png"
                 className="img-hero"
                 style={{ opacity: 1, visibility: 'visible' }}
                 suppressHydrationWarning

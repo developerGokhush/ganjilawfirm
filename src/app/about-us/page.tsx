@@ -93,7 +93,7 @@ export default function AboutUsPage() {
               </div>
               <div data-w-id="34e9b89a-4eac-3259-7c34-b29e6c1e0a0e" className="vision-head" suppressHydrationWarning>
                 <div data-w-id="5fd8a608-fb61-7243-00f2-7745349c288e" style={{ height: '0rem' }} className="img-bg" suppressHydrationWarning><img
-                  src="/assets/ganjiteam.jpg"
+                  src="/assets/ganjiTeam1.png"
                   loading="lazy" alt="" className="img-cover" suppressHydrationWarning /></div>
               </div>
             </div>

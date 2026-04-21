@@ -348,10 +348,10 @@ export default function Home() {
           <div className="container-large" suppressHydrationWarning>
             <div className="chooseus-wrap w-variant-787f8566-1fd6-6776-63ae-1ee427521b6f" suppressHydrationWarning>
               <div className="chooseus-content w-variant-787f8566-1fd6-6776-63ae-1ee427521b6f" suppressHydrationWarning><img
-                src="/assets/ganjiteam2.jpg"
+                src="/assets/ganjiTeam2.png"
                 loading="lazy" data-w-id="7848de4d-3b76-5133-6c5a-2704a9dc3dee" height="Auto" alt=""
                 className="img-chooseus w-variant-787f8566-1fd6-6776-63ae-1ee427521b6f" suppressHydrationWarning /><img
-                  src="/assets/ganjiteam2.jpg"
+                  src="/assets/ganjiTeam2.png"
                   loading="lazy" data-w-id="7848de4d-3b76-5133-6c5a-2704a9dc3def" height="Auto" alt=""
                   className="img-chooseus w-variant-787f8566-1fd6-6776-63ae-1ee427521b6f is-secondary" suppressHydrationWarning /></div>
               <div className="chooseus-heading" suppressHydrationWarning>
@@ -396,7 +396,7 @@ export default function Home() {
             </div>
             <div className="chooseus-secondary-wrap w-variant-787f8566-1fd6-6776-63ae-1ee427521b6f" suppressHydrationWarning>
               <div className="chooseus-content w-variant-787f8566-1fd6-6776-63ae-1ee427521b6f" suppressHydrationWarning><img
-                src="/assets/ganjiteam2.jpg"
+                src="/assets/ganjiTeam2.png"
                 loading="lazy" data-w-id="9789c260-bb13-03b4-b1f4-f60af770fb5e" height="Auto" alt=""
                 className="img-chooseus w-variant-787f8566-1fd6-6776-63ae-1ee427521b6f" suppressHydrationWarning />
                 <div className="chooseus-heading-wrap w-variant-787f8566-1fd6-6776-63ae-1ee427521b6f" suppressHydrationWarning>

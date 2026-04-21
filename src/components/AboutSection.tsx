@@ -158,7 +158,7 @@ export default function AboutSection() {
               </div>
             </div>
             <div data-w-id="c8a4a042-474e-e37b-0fd9-77f95ef4660e" style={{ height: "0rem" }} className="about-team-image" suppressHydrationWarning>
-              <img src="/assets/ganjiteam.jpg" loading="lazy" width="Auto" height="Auto" alt="" className="parallax-img" suppressHydrationWarning />
+              <img src="/assets/ganjiTeam1.png" loading="lazy" width="Auto" height="Auto" alt="" className="parallax-img" suppressHydrationWarning />
             </div>
           </div>
         </div>
